@@ -474,6 +474,11 @@ a img.aligncenter {
 	font-size: 16px;
 	font-weight: 500;
 }
+.language-item{
+    color: #ffffff;
+	font-size: 16px;
+	font-weight: 500;
+}
 
 .top-navbar .navbar-light .navbar-nav .nav-item{
 	position: relative;
