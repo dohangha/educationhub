@@ -4190,8 +4190,57 @@ a, a:hover {
 	}
 }
 
+/* logo slide carousel */
 
-
-
+@keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .logo-university {
+    overflow: hidden;
+    padding: 60px 0;
+    background: white;
+    white-space: nowrap;
+    position: relative;
+  }
+  
+  .logo-university:before,
+  .logo-university:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+  }
+  
+  .logo-university:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+  }
+  
+  .logo-university:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+  }
+  
+  .logo-university:hover .logo-university-slide {
+    animation-play-state: paused;
+  }
+  
+  .logo-university-slide {
+    display: inline-block;
+    animation: 35s slide infinite linear;
+  }
+  
+  .logo-university-slide img {
+    height: 90px;
+    margin: 0 40px;
+  }
 
 

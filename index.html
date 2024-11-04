@@ -354,14 +354,35 @@
         </div><!-- end container -->
     </div><!-- end section -->
 
-	<div class="bg-white mt-5 wow fadeInUp">
+    <!-- logo -->
+	<!-- <div class="bg-white mt-5 wow fadeInUp">
         <div class="container">
             <div class="row logos col-md-12 justify-content-center">
 				<a href="#"><img src="images/gen-logo.png" alt="" class="img-repsonsive" width="100%"></a>
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
+            </div>
+        </div>
+    </div> -->
+    <div class="logo-university">
+        <div class="logo-university-slide">
+          <img src="./images/logo_01.png" />
+          <img src="./images/logo_02.png" />
+          <img src="./images/logo_03.png" />
+          <img src="./images/logo_04.png" />
+          <img src="./images/logo_05.png" />
+          <img src="./images/logo_06.png" />
+          <img src="./images/logo_07.png" />
+          <img src="./images/logo_08.png" />
+          <img src="./images/logo_09.png" />
+          <img src="./images/logo_10.png" />
+          <img src="./images/logo_11.png" />
+          <img src="./images/logo_12.png" />
+          <img src="./images/logo_13.png" />
+          <img src="./images/logo_14.png" />
+          <img src="./images/logo_15.png" />
+        </div>
+      </div>
 
+    <!-- end logo -->
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -441,6 +462,9 @@
 			verticalStartPosition: 'left',
 			visibleItems: 4
 		});
+
+        var copy = document.querySelector(".logo-university-slide").cloneNode(true);
+        document.querySelector(".logo-university").appendChild(copy);
 	</script>
 </body>
 </html>
