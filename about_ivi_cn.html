@@ -15,8 +15,8 @@
     <meta name="author" content="">
 
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/logo-icon.png" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="./images/logo-icon.png">
+    <link rel="shortcut icon" href="images/logo-icon-2.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="./images/logo-icon-2.png">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Bootstrap CSS -->
@@ -211,13 +211,25 @@
 		</div>
 	</div>
 
-    <div class="parallax section bg-white wow fadeInUp">
-        <div class="container">
-            <div class="row logos col-md-12 justify-content-center">
-				<a href="#"><img src="images/gen-logo.png" alt="" class="img-repsonsive" width="100%"></a>
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
+    <div class="logo-university">
+        <div class="logo-university-slide">
+          <img src="./images/logo_01.png" />
+          <img src="./images/logo_02.png" />
+          <img src="./images/logo_03.png" />
+          <img src="./images/logo_04.png" />
+          <img src="./images/logo_05.png" />
+          <img src="./images/logo_06.png" />
+          <img src="./images/logo_07.png" />
+          <img src="./images/logo_08.png" />
+          <img src="./images/logo_09.png" />
+          <img src="./images/logo_10.png" />
+          <img src="./images/logo_11.png" />
+          <img src="./images/logo_12.png" />
+          <img src="./images/logo_13.png" />
+          <img src="./images/logo_14.png" />
+          <img src="./images/logo_15.png" />
+        </div>
+      </div>
 
     <footer class="footer">
         <div class="container">
@@ -262,8 +274,8 @@
                         </div>
 
                         <ul class="footer-links">
-                            <li><a href="mailto:#">info@educationhub.solution</a></li>
-                            <li><a href="#">www.educationhub.solution</a></li>
+                            <li><a href="mailto:#">info@educationhub.solutions</a></li>
+                            <li><a href="#">www.educationhub.solutions</a></li>
                             <li>19-1 & 20-1&2, Jalan Tanjung SD 13/1 Bandar Sri Damansara 52200 Kuala Lumpur Malaysia</li>
                             <li>+6012-369 2826 </li>
                         </ul><!-- end links -->
@@ -341,6 +353,9 @@ function consoleText(words, id, colors) {
     }
   }, 400)
 }
+
+        var copy = document.querySelector(".logo-university-slide").cloneNode(true);
+        document.querySelector(".logo-university").appendChild(copy);
     </script>
 </body>
 </html>
