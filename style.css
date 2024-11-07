@@ -3079,57 +3079,6 @@ span.m_1 {
 }
 
 
-.pricingTable-sign-up a{}
-.pricingTable-sign-up a{
-	position: relative;
-	font-size: 18px;
-	display: inline-block;
-}
-.pricingTable-sign-up a,
-.pricingTable-sign-up a.hover-btn-new::after {
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-}
-
-.pricingTable-sign-up a.hover-btn-new::before,
-.pricingTable-sign-up a.hover-btn-new::after {
-  background: #eea412;
-  content: '';
-  position: absolute;
-  z-index: 1;
-}
-
-.pricingTable-sign-up a.hover-btn-new:hover span {
-  color: #333333;
-}
-.pricingTable-sign-up a.hover-btn-new::before {
-  height: 100%;
-  left: 0;
-  top: 0;
-  width: 100%;
-}
-.pricingTable-sign-up a.hover-btn-new::after {
-  background: #333333 !important;
-  height: 100%;
-  left: 0;
-  top: 0;
-  width: 100%;
-}
-.pricingTable-sign-up a.hover-btn-new span{
-	position: relative;
-	z-index: 2;
-	color: #fff;
-}
-.pricingTable-sign-up a.hover-btn-new:hover:after {
-  height: 0;
-  left: 50%;
-  top: 50%;
-  width: 0;
-}
-
-
 
 #testimonial-box .testimonial h3{
 	color: #ffffff;
@@ -3144,9 +3093,6 @@ span.m_1 {
 	color: #121212;
 }
 
-.customer-box{
-	
-}
 .customer-box .nav-tabs{
 	border-bottom: none;
 	padding: 20px;
